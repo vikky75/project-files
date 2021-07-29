@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+}
+.login {
+  padding: 10em 30em;
+}
+.form {
+  paddding: 2em;
+  border-radius: 0.4em;
+  border: 1px solid lightblue;
+}
+.login p {
+  font-size: 1em;
+}

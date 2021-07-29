@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>user form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+
+       <h1>User</h1>
+       <div class = "form">
+         <div class ="col"><input type="text" class="form-control" id = "list" placeholder="name"/></div>
+         <div class ="col py-4"><input type="text" class="form-control listt" placeholder="phone"/></div>
+
+       <script type="text/javascript" src="script.js"></script>
+       <script>
+          let list = document.getElementById('list').value ;
+          localStorage.setItem("list",list);
+          console.log(list);
+       </script>
+
+    </body>
+</html>     
